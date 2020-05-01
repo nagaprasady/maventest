@@ -39,19 +39,17 @@
     </plugins>
   </build>
    <distributionManagement>
-		<repository>
-			<id>local-nexus</id>
-			<layout>default</layout>
-			<url>http://nexus/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>local-nexus</id>
-                        <layout>default</layout>
-			<url>http://nexus/repository/maven-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-     
-    <repository>
+  <repository>
+ <id>local-nexus</id>
+ <layout>default</layout>
+<url>http://nexus/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>local-nexus</id>
+ <layout>default</layout>
+<url>http://nexus/repository/maven-snapshots/</url>
+</snapshotRepository>
+ <repository>
    <id>nexus</id>
    <name>maven-releases</name>
    <url>http://localhost:8081/repository/maven-releases/</url>
