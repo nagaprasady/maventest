@@ -49,7 +49,6 @@
  <layout>default</layout>
 <url>http://nexus/repository/maven-snapshots/</url>
 </snapshotRepository>
- <repository>
    <id>nexus</id>
    <name>maven-releases</name>
    <url>http://localhost:8081/repository/maven-releases/</url>
